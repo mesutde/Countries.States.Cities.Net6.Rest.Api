@@ -1,0 +1,31 @@
+{
+  "profiles": {
+    "Countries.States.Cities.Net6.Rest.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "GetCountries/All",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5178"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "GetCountries/All",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:31329",
+      "sslPort": 0
+    }
+  }
+}
